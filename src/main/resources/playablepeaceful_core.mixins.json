@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "moonfather.playablepeaceful_core.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "playablepeaceful_core.refmap.json",
+  "mixins": [
+    "DifficultyCheckRedirect1",
+    "DifficultyCheckRedirect2",
+    "DifficultyCheckRedirect3",
+    "DifficultyCheckRedirect4",
+    "DifficultyCheckRedirect5",
+    "DifficultyCheckRedirect6",
+    "DifficultyCheckRedirectForFoodAndHealth1",
+    "DifficultyCheckRedirectForFoodAndHealth2",
+    "PiglinPacifier",
+    "PiglinPortalBlocker0",
+    "PiglinPortalBlocker1",
+    "PiglinSpawner"
+  ],
+  "minVersion": "0.8"
+}

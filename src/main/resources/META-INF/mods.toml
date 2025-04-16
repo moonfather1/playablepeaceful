@@ -1,0 +1,34 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="MLL - MoonFather's Limited License"
+issueTrackerURL="https://discord.gg/2VayYKktvx" #optional
+[[mods]] #mandatory
+modId="playablepeaceful" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Playable Peaceful" #mandatory
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+logoFile="logo.png" #optional
+#credits="Thanks for this example mod goes to Java" #optional
+authors="MoonFather" #optional
+description='''
+Turns a half-usable difficulty setting into an enjoyable game mode.
+
+Makes health and nutrition function as it does in normal/hard difficulties.
+Lets you obtain thing like gunpowder and string in absence of mobs that usually drop them.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.playablepeaceful]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[40,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.playablepeaceful]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
